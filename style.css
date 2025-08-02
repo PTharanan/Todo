@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main_box{
+    width: 100vw;
+    height: 100vh;
+    background-color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    width: 60vw;
+    height: 80vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+input{
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 40vw;
+    margin: 5%;
+    font-size: 20px;
+    outline: none;
+}
+
+button{
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 15%;
+    border: none;
+}
+
+.task{
+    height: 10vh;
+    width: 50vw;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 2% 4%;
+}
+.taskval{
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.butt{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+p{
+    padding: 1% 2%;
+    font-size: 20px;
+}
+
+.edit{
+    background-color: rgba(0, 0, 255, 0.847);
+    margin-right: 6%;
+    padding: 15px;
+    width: 30%;
+}
+
+.delete{
+    background-color: rgba(255, 0, 0, 0.862);
+    margin-right: 8%;
+    padding: 15px;
+    width: 30%
+}
