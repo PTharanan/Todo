@@ -27,4 +27,5 @@ function addtask()
     butt.append(deletebtn);
     task.append(butt);
     box.append(task);
+    data.value = "";
 }
