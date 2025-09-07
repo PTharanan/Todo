@@ -1,26 +1,27 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
-#main_box{
+#main_box {
     width: 100vw;
     height: 100vh;
-    background-color:aquamarine;
+    background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#box{
+#box {
     width: 60vw;
     height: 80vh;
     background-color: aliceblue;
     border-radius: 20px;
 }
 
-input{
+input {
     background-color: aliceblue;
     border: none;
     border-bottom: 1px solid black;
@@ -31,7 +32,18 @@ input{
     outline: none;
 }
 
-button{
+#inp {
+    position: fixed;
+    width: 60vw;
+    border-radius: 20px 20px 0px 0px;
+    backdrop-filter: blur(5px);
+}
+
+#out{
+    margin-top: 15%;
+}
+
+button {
     padding: 20px;
     background-color: black;
     color: aliceblue;
@@ -40,7 +52,7 @@ button{
     border: none;
 }
 
-.task{
+.task {
     height: 10vh;
     width: 50vw;
     border: 1px solid black;
@@ -49,14 +61,15 @@ button{
     align-items: center;
     margin: 2% 4%;
 }
-.taskval{
+
+.taskval {
     width: 30vw;
     height: 10vh;
     display: flex;
     align-items: center;
 }
 
-.butt{
+.butt {
     width: 20vw;
     height: 10vh;
     display: flex;
@@ -64,21 +77,23 @@ button{
     justify-content: flex-end;
 }
 
-p{
+p {
     padding: 1% 2%;
     font-size: 20px;
 }
 
-.edit{
+.edit {
     background-color: rgba(0, 0, 255, 0.847);
     margin-right: 6%;
     padding: 15px;
     width: 30%;
+    color: aliceblue;
 }
 
-.delete{
+.delete {
     background-color: rgba(255, 0, 0, 0.862);
     margin-right: 8%;
     padding: 15px;
-    width: 30%
+    width: 30%;
+    color: aliceblue;
 }

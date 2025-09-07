@@ -1,4 +1,4 @@
-var box = document.getElementById("box");
+var box = document.getElementById("out");
 var data = document.getElementById("data");
 
 
